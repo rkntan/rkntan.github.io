@@ -1,0 +1,136 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #111111;
+  color: #FCFCFC;
+  font-family: monospace;
+}
+
+h1,
+h2,
+h3 {
+  /* Use your preferred monospace font */
+  color: #f9f9f9;
+  /* Optional: Set a color for the headings */
+  margin: 10px 0;
+  /* Optional: Add margin for spacing */
+}
+
+h1 {
+  font-size: 2.5em;
+  /* Adjust the size as needed */
+}
+
+h2 {
+  font-size: 2em;
+  /* Adjust the size as needed */
+}
+
+h3 {
+  font-size: 1.5em;
+  /* Adjust the size as needed */
+}
+
+p {
+  color: #f9f9f9;
+  /* Optional: Set a color for the paragraph text */
+  line-height: 1.5;
+  /* Optional: Adjust line height for better readability */
+  margin: 10px 0;
+  /* Optional: Add margin for spacing */
+}
+
+#content {
+  display: flex;
+  font-family: "Playwrite GB S", cursive;
+}
+
+#gif-container {
+  padding: 20px;
+}
+
+#gif-container img {
+  height: auto;
+  border: 2px solid #f9f9f9;
+  border-radius: 10px;
+}
+
+#app {
+  text-align: center;
+  padding: 20px;
+}
+
+.warning-box {
+  border: 1px solid #54F2F2;
+  font-family: monospace;
+  letter-spacing: 6px;
+}
+
+.warning-box-header {
+  background-color: #54F2F2;
+  color: #101010;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px;
+  padding: 10px;
+}
+
+.warning-box-text {
+  padding: 5px;
+  color: #FCFCFC;
+  text-align: center;
+}
+
+
+.photo-container {
+  display: flex;
+  /* Use flexbox for side-by-side layout */
+  justify-content: center;
+  /* Center the images horizontally */
+  margin-top: 20px;
+  /* Optional: Add space above the photos */
+}
+
+.photo-container img {
+  /* Adjust width as needed, 45% gives some space between images */
+  margin: 0 2.5%;
+  /* Optional: Add space between the images */
+  border-radius: 8px;
+  /* Optional: Add rounded corners to the images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Optional: Add a subtle shadow */
+}
+
+
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 20px;
+  font-family: monospace;
+  letter-spacing: 6px;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  background-color: #F4E04D;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 3px 66px;
+
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #042A2B;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer nav ul li a:hover {
+  color: #FCFCFC;
+}

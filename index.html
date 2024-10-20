@@ -1,25 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-        h1 {
-            color: #333;
-        }
-    </style>
+    <title>rkntan</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Google Fonts (optional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
+
+    <!-- Container for the gif and typewriter text -->
+    <div id="content">
+        <div id="gif-container">
+            <img src="assets/images/lighthouse.gif" alt="A lighthouse" />
+        </div>
+        <div id="app"></div>
+    </div>
+
+    <main class="container">
+        <section>
+            <div class="warning-box">
+                <h2 class="warning-box-header">Warning!</h2>
+                <p class="warning-box-text">
+                    Under constrution
+                </p>
+            </div> <!-- end of box -->
+        </section>
+    </main>
+
+
+    <!-- Footer section -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="#">projects</a></li>
+                <li><a href="#">links</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- Typewriter library (include via CDN or locally) -->
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Link to your JavaScript file -->
+    <script src="assets/js/script.js"></script>
+
 </body>
+
 </html>
